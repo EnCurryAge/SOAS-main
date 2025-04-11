@@ -39,14 +39,14 @@ Before running the project, ensure you have the correct environment and required
 
 ### Hyper-parameters 
 The settings of **SOAS** are determined in the parameter **args** in **config_for_all.py**. Here, we mainly introduce the important hyper-parameters.
-- model: the root of victim model. Default:"gpt-j-6b".
-- prefix_root: the root of ground-truth prefixes. Default: 50.
-- suffix_root: the root of ground-truth suffixes. Default: 50.
-- chunk: the number of samples for evaluation. Default: 1500.
-- prefix_root: the tested token length of ground-truth prefixes. Default: 50.
-- suffix_root: the tested token length of ground-truth suffixes. Default: 50.
-- steering strength: the coefficient to control the intensity of SOAS. Default: 10.0.
-- bs: the batch size for all experiments. Default: 8.
+- `model`: the root of victim model. Default:"gpt-j-6b".
+- `prefix_root`: the root of ground-truth prefixes. Default: 50.
+- `suffix_root`: the root of ground-truth suffixes. Default: 50.
+- `chunk`: the number of samples for evaluation. Default: 1500.
+- `prefix_root`: the tested token length of ground-truth prefixes. Default: 50.
+- `suffix_root`: the tested token length of ground-truth suffixes. Default: 50.
+- `steering strength`: the coefficient to control the intensity of SOAS. Default: 10.0.
+- `bs`: the batch size for all experiments. Default: 8.
 
 ### Run
 You could run `main.py` in your python IDE directly.
