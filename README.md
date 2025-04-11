@@ -1,5 +1,5 @@
 # Semantic Orthogonal Activation Steering: A Tuning-Free Defense for Large Language Models Against Data Extraction (SOAS)
-The code for our paper "Semantic Orthogonal Activation Steering: A Tuning-Free Defense for Large Language Models Against Data Extraction"
+The official code for our paper "Semantic Orthogonal Activation Steering: A Tuning-Free Defense for Large Language Models Against Data Extraction".
 
 ## About The Project
 **SOAS** is a simple yet effective tuning-free defense mechanism against data extraction attacks targeting the training data of LLMs. It identifies critical layers enabling successful extraction by analyzing activations between successive layers, calculates a steering vector orthogonal to the semantic direction of the protected data, and applies this vector to the identified layer, yielding effective defense against existing data extraction attacks.
