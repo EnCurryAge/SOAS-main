@@ -43,8 +43,8 @@ The settings of **SOAS** are determined in the parameter **args** in **config_fo
 - `prefix_root`: the root of ground-truth prefixes. Default: 50.
 - `suffix_root`: the root of ground-truth suffixes. Default: 50.
 - `chunk`: the number of samples for evaluation. Default: 1500.
-- `prefix_root`: the tested token length of ground-truth prefixes. Default: 50.
-- `suffix_root`: the tested token length of ground-truth suffixes. Default: 50.
+- `prefix_length`: the tested token length of ground-truth prefixes. Default: 50.
+- `suffix_length`: the tested token length of ground-truth suffixes. Default: 50.
 - `steering strength`: the coefficient to control the intensity of SOAS. Default: 10.0.
 - `bs`: the batch size for all experiments. Default: 8.
 
